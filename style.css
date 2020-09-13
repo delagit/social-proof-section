@@ -1,0 +1,50 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+}
+.boxTitle{
+}
+.boxSubTitle{
+    
+}
+.right{
+    width: 50%;
+    align-items: flex-end;
+}
+.title{
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 10px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 50px;
+}
+.subTitle{
+    color: hsl(303, 10%, 53%);
+    margin-top: 0px;
+    line-height: 25px;
+}
+.list{
+    color: hsl(300, 43%, 22%);
+}
+.description {
+    font-size: 15px;
+}
+
+
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+}
+.attribution a {
+}
