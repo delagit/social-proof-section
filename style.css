@@ -5,17 +5,15 @@ body{
     flex-direction: column;
 }
 .hero{
-    max-width: 1000px;
+    max-width: 1080px;
     display: flex;
     flex-direction: row;
 }
 .left{
     width: 50%;
 }
-.boxTitle{
-}
 .boxSubTitle{
-    
+    max-width: 500px;
 }
 .right{
     width: 50%;
@@ -33,18 +31,35 @@ body{
     margin-top: 0px;
     line-height: 25px;
 }
+
+.main{
+    width: 1080px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card{
+    /* display: flex; */
+    width: 340px;
+    height: 210px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    color: white;
+}
+
+.card2{
+    order: 1;
+    align-self: center;
+}
+.card3{
+    order: 2;
+    align-self: flex-end;
+}
+
 .list{
     color: hsl(300, 43%, 22%);
 }
 .description {
     font-size: 15px;
-}
-
-
-
-.attribution {
-        font-size: 11px;
-        text-align: center;
-}
-.attribution a {
 }
