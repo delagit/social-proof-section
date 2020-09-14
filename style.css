@@ -5,19 +5,19 @@ body{
     flex-direction: column;
 }
 .hero{
-    max-width: 1080px;
+    max-width: 1100px;
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 }
 .left{
     width: 50%;
 }
+.boxTitle{
+    max-width: 540px;
+}
 .boxSubTitle{
     max-width: 500px;
-}
-.right{
-    width: 50%;
-    align-items: flex-end;
 }
 .title{
     color: hsl(300, 43%, 22%);
@@ -32,22 +32,78 @@ body{
     line-height: 25px;
 }
 
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.reviewBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 215px;
+}
+
+.review{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 51px;
+    width: 440px;
+    background-color: #f7f2f8;
+    border-radius: 5px;
+}
+.stars{
+    height: 17px;
+    width: 131px;
+    display: flex;
+    justify-content: space-around;
+}
 .main{
-    width: 1080px;
+    width: 1100px;
     height: 260px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 50px;
 }
 .card{
     /* display: flex; */
-    width: 340px;
-    height: 210px;
+    width: 350px;
+    height: 240px;
     background-color: hsl(300, 43%, 22%);
     border-radius: 8px;
-    color: white;
+    color: hsl(0, 0%, 100%);
+}
+.imageProfile{
+    border-radius: 100%;
+    height: 42px;
+    width: 42px;
+    padding: 1em;
 }
 
+.profile{
+    display: flex;
+    height: 88px;
+    padding: 24px 0 0 16px;
+}
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5px;
+    justify-content: center;
+}
+.name{
+    margin: 0;
+    font-weight: bold;
+}
+.buyer{
+    margin: 0;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
 .card2{
     order: 1;
     align-self: center;
@@ -59,7 +115,17 @@ body{
 
 .list{
     color: hsl(300, 43%, 22%);
+    font-weight: 600;
 }
 .description {
-    font-size: 15px;
+    font-size: 14px;
+    padding: 1rem;
+    padding-top: 0;
+    margin-top: 0;
+    color: hsl(300, 24%, 96%);
+    line-height: 23px;
+}
+
+.attribution{
+    margin-top: 5px;
 }
